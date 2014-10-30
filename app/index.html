@@ -5,10 +5,18 @@
     <meta charset="utf-8">
   </head>
   <body>
-    <h1>Hello, world</h1>
+    <h1>計算</h1>
     <form>
-      <button type="button">押して！</button>
+	<p>足し算</p>
+	<p><input type="text" id="input_1"> と 
+	<input type="text" id="input_2"></p>
+      <button type="button" onClick="add()">足し算</button>
+	  <button type="button" onClick="subtract()">引き算</button>
+	  <button type="button" onClick="multiply()">かけ算</button>
+	  <button type="button" onClick="divide()">割り算</button>
     </form>
+	<h2>計算結果</h2>
+	<input type="text" id ="answer"></input>
     <script src="scripts/main.js"></script>
   </body>
 </html>

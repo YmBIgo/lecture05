@@ -19,7 +19,7 @@ gulp.task("auto-reload", function () {
 gulp.task("watch", function () {
   gulp.watch(["./app/*.html",
               "./app/scripts/*.js",
-              "./app/styles/*.css"], ["html"]);
+              "./app/styles/*.css"]);
 });
 
 // regsiter default tasks
