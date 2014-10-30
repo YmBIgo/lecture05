@@ -60,10 +60,23 @@ result = parseInt(input1)/parseInt(input2);
 output = document.querySelector("#answer");//#以降で ID を検索する。
 output.value =result;
 }
+//最大公約数
+function max(){
+getInput();
+
+}
+//最小公倍数
+function min(){
+getInput();
+
+}
 function getInput(){
 input1 = document.getElementById("input_1").value;
 input2 = document.getElementById("input_2").value;
 }
+//mouseOver
+
+//最大公約数、最小公約数
 
 window.addEventListener("load", add);
 window.addEventListener("load",b);
